@@ -1,29 +1,30 @@
 {
-  "name": "unit10hw",
+  "name": "team_profile_gen",
   "version": "1.0.0",
-  "description": "OOP and testing for week 10 homework",
-  "main": "app.js",
+  "description": "![Github License](https://img.shields.io/badge/license-MIT-blue.svg)",
+  "main": "index.js",
   "directories": {
-    "lib": "lib",
-    "test": "test"
+    "test": "tests"
   },
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^8.1.2",
+    "jest": "^27.0.6",
+    "test": "^0.6.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "jest --verbose test/*"
+    "start": "node index.js",
+    "test": "jest --verbose tests/*"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stevetrilogy/unit10hw.git"
+    "url": "git+https://github.com/r2sims/Team-Profile-Generator-2.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/stevetrilogy/unit10hw/issues"
+    "url": "https://github.com/r2sims/Team-Profile-Generator-2.gitissues"
   },
-  "homepage": "https://github.com/stevetrilogy/unit10hw#readme",
-  "dependencies": {
-    "inquirer": "^6.3.1"
-  },
-  "devDependencies": {
-    "jest": "^24.8.0"
-  }
+  "homepage": "https://github.com/r2sims/Team-Profile-Generator-2#readme"
 }
